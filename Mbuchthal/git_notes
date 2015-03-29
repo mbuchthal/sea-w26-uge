@@ -1,0 +1,33 @@
+Git notes from 3/28 workshop
+
+Repository - stores files and their changes over time
+
+$git config --global user.name "[name]"
+$git config --global user.email "[email]"
+
+$git init - creats hidden .git folder repository in current directory
+$la - will show all including .git
+git status - views staging area
+git add - adds to staging area
+git commit (-m 'with notes') - commits changes; like a time stamp with 5 things: changes, timestamp, signature, id, message
+git log - to see changes in commits
+git ll - list longform
+git la - lists all
+
+Workflow:
+1. init a repository once
+2. add a file and commit,
+3. modify, add, and commit ... cyle
+
+Labels:
+master - labelled first commit and most recent
+HEAD - labelled first commit and most recent commit in active branch
+branch(es) - different branches can have labels
+
+git branch - to list branches
+git checkout [name] - to change branch
+
+subl . - will open all files in current directory to sublime text editor
+
+git merge - will merge branch into destination.  The branch remains
+git branch -d -- will delete branch

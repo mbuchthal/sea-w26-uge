@@ -1,0 +1,30 @@
+Unix notes from 3/28 Workshop
+Terminal:
+uname - will display the program you are currently i.e., Darwin
+echo $SHELL - will show the current shell, i.e., Fish
+brew update regularly
+pwd - print working directory
+paths - represents the lcoation on filesystem from general to specific.  Similar to a physical address, but in reverse order.
+absolute path - has a /
+relative path - does not have a /
+cd - change directory
+cd / - changet to root directory.  paths that start with root are absolute b/c there is no ambiguity
+cd .. - move up one directory
+ls - list; by default, displays in alpha order
+ls -t - flags by modification date
+ls -l - long format
+ls -a - shows all files
+flags can be combined (-t, -a, -l)
+man - displays manual for command following 'man'
+Press Q to quit a program
+Press Cont+c to kill a program
+. - refers to same directory
+.. - refers to one up directory
+history - to view previous commands
+history | less - to view in page format
+| - pipe: the output of "history" becomes the input of "less"
+Naming conventions - avoid spaces (or use / to disregard)
+mkdir - makes new directory
+mv - move command, also renames, or moves and renames
+
+
